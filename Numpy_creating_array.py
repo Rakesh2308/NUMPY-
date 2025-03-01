@@ -5,5 +5,6 @@ print(arr.ndim) # To check the dimensions
 print(arr.shape) #To check number of columns and rows (2,7)
 print(arr.size) # Total number of elemets 14
 print(arr.dtype) # Type of data
+print(arr)
 
 
