@@ -26,3 +26,12 @@ print(ar1.min())
 print(np.std(ar1))       # Output: 1.7078 (Standard deviation)
 print(np.sum(arr3, axis=0))  # Sum along columns: [5 7 9]
 print(np.sum(arr3, axis=1))  # Sum along rows: [6 15]
+print(ar1>2)
+print(np.any(ar1)<2)
+print(np.all(ar1)<2)
+arr = np.array([1, 4, 9, 16, 25])
+
+print(np.sqrt(arr))  # Output: [1. 2. 3. 4. 5.]
+print(np.exp(arr))   # Output: Exponential values
+print(np.log(arr))   # Output: Natural log values
+
